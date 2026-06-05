@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+.btn {
+    @apply bg-gray-200 dark:bg-gray-600 rounded-xl h-12 flex items-center justify-center cursor-pointer transition;
+
+  }
+  
+  .btn:hover {
+    transform: scale(1.08);
+  }
+
+
+ 
